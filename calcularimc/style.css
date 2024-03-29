@@ -157,5 +157,17 @@ body{
 
 .hidden{
     display: none;
+  
 }
 
+@media screen and (max-width:1280px){
+    #container{
+        flex-direction: column;
+    }
+    #calculator{
+        margin-top: 20px;
+    }
+    .input-box{
+        margin-bottom: 10px;
+    }
+}
